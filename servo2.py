@@ -13,6 +13,8 @@ try:
     time.sleep(2)
     p.ChangeDutyCycle(10)
     time.sleep(2)
+    p.ChangeDutyCycle(6)
+    time.sleep(2)
     p.stop()
    
    
