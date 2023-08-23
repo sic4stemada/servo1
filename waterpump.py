@@ -3,7 +3,7 @@ import time
 
 # Inisialisasi GPIO
 GPIO.setmode(GPIO.BCM)
-pump_pin = 18  # Ganti dengan nomor pin GPIO yang Anda gunakan
+pump_pin = 26  # Ganti dengan nomor pin GPIO yang Anda gunakan
 GPIO.setup(pump_pin, GPIO.OUT)
 
 
